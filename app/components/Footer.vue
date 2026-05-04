@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-base-300 px-2 py-12">
+  <footer class="bg-base-300 px-2 pt-12 pb-32">
     <div class="max-w-xl mx-auto">
       <nav class="mb-4 grid grid-cols-2">
         <NuxtLink to="/mentions-legales" class="link link-primary">
