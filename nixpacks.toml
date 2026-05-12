@@ -1,2 +1,10 @@
 [phases.setup]
 nixpkgsArchive = "1267bb4920d0fc06ea916734c11b0bf004bbe17e"
+
+# Potential fix for coolify that seems to install an old corepack version
+[phases.install]
+cmds = [
+  "corepack enable",
+  "corepack prepare pnpm@11.1.1 --activate",
+  "pnpm install --frozen-lockfile"
+]
