@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-base-300 px-2 pt-12 pb-32">
-    <div class="max-w-xl mx-auto">
+    <div class="mx-auto max-w-xl">
       <nav class="mb-4 grid grid-cols-2">
         <NuxtLink to="/mentions-legales" class="link link-primary">
           Mentions légales
@@ -13,7 +13,9 @@
       </nav>
       <div class="grid gap-y-2">
         <p>
-          Je n'ai pas de réseaux sociaux mais parfois <NuxtLink class="link link-primary" external to="https://youtu.be/nF40HTXmYtQ">
+          Je n'ai pas de réseaux sociaux mais parfois <NuxtLink
+            class="link link-primary" external to="https://youtu.be/nF40HTXmYtQ"
+          >
             je fais des vidéos sur youtube
           </NuxtLink>.
         </p>

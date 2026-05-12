@@ -1,5 +1,5 @@
 <template>
-  <div class="my-12 px-2 max-w-3xl mx-auto">
+  <div class="mx-auto my-12 max-w-3xl px-2">
     <header class="mb-12">
       <h1 class="text-3xl">
         Mentions légales
@@ -7,7 +7,7 @@
     </header>
     <main class="grid gap-y-8">
       <div>
-        <h2 class="text-2xl mb-2">
+        <h2 class="mb-2 text-2xl">
           Éditeur du site
         </h2>
         <p>Florian Ledru</p>
@@ -15,18 +15,18 @@
         <p class="plz-no-spamerino" data-user="nairolf" data-website="oi.rehsamlluks" />
       </div>
       <div>
-        <h2 class="text-2xl mb-2">
+        <h2 class="mb-2 text-2xl">
           Hébergeur du site
         </h2>
         <p>OVH SAS</p>
         <p>2 rue Kellermann, 59100 Roubaix</p>
       </div>
       <div>
-        <h2 class="text-2xl mb-2">
+        <h2 class="mb-2 text-2xl">
           Données personnelles
         </h2>
         <div class="mb-4">
-          <h3 class="text-xl mb-1">
+          <h3 class="mb-1 text-xl">
             Responsable du traitement des données
           </h3>
           <div class="mb-2">
@@ -41,17 +41,17 @@
           </p>
         </div>
         <div class="mb-4">
-          <h3 class="text-xl mb-1">
+          <h3 class="mb-1 text-xl">
             Cycle de vie de la donnée
           </h3>
-          <h4 class="text-lg mb-1">
+          <h4 class="mb-1 text-lg">
             Conservation en base active
           </h4>
           <div class="mb-2">
             <p>Il s'agit de la durée nécessaire à la réalisation de l'objectif ayant justifié la collecte/enregistrement des données.</p>
             <p>Ces données sont conservées 2 ans.</p>
           </div>
-          <h4 class="text-lg mb-1">
+          <h4 class="mb-1 text-lg">
             Archivage intermédiaire
           </h4>
           <div class="mb-2">

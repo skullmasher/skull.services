@@ -1,5 +1,10 @@
 <template>
-  <section id="about" class="px-2 pt-8 flex flex-col md:flex-row-reverse justify-center items-center">
+  <section
+    id="about" class="
+      flex flex-col items-center justify-center px-2 pt-8
+      md:flex-row-reverse
+    "
+  >
     <BusinessCard />
     <CoolPictures />
   </section>

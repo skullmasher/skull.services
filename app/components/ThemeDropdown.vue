@@ -7,7 +7,11 @@ const currentTheme = useLocalStorage('theme', '')
 
 <template>
   <div class="dropdown dropdown-center dropdown-bottom p-0">
-    <button tabindex="0" role="button" class="group flex items-center gap-x-2 px-3 py-1.5">
+    <button
+      tabindex="0" role="button" class="
+        group flex items-center gap-x-2 px-3 py-1.5
+      "
+    >
       <Icon
         name="solar:palette-broken" size="1.5em" class="
           transition-transform duration-300
@@ -30,7 +34,9 @@ const currentTheme = useLocalStorage('theme', '')
           class="theme-controller btn justify-start btn-ghost btn-primary" :aria-label="capitalizeFirstLetter(theme)"
           :value="theme"
         >
-        <button :data-theme="theme" class="absolute top-2.5 right-3 gap-1 bg-base-100" @click="currentTheme = theme">
+        <button
+          :data-theme="theme" class="absolute top-2.5 right-3 gap-1 bg-base-100" @click="currentTheme = theme"
+        >
           <div class="size-2 rounded-full bg-base-content" />
           <div class="size-2 rounded-full bg-primary" />
           <div class="size-2 rounded-full bg-secondary" />

@@ -29,9 +29,9 @@ async function sendMessage(event) {
 
 <template>
   <section class="px-2">
-    <form id="contact" class="max-w-xl mx-auto" @submit.prevent="sendMessage">
-      <fieldset class="fieldset border-base-300 rounded-box border-4 p-4" :disabled="isSuccess">
-        <legend class="fieldset-legend text-xl px-8 mx-auto">
+    <form id="contact" class="mx-auto max-w-xl" @submit.prevent="sendMessage">
+      <fieldset class="fieldset rounded-box border-4 border-base-300 p-4" :disabled="isSuccess">
+        <legend class="mx-auto fieldset-legend px-8 text-xl">
           Me contacter
         </legend>
         <p class="plz-no-spamerino text-center text-base" data-user="nairolf" data-website="oi.rehsamlluks" />
@@ -39,7 +39,7 @@ async function sendMessage(event) {
           <legend class="fieldset-legend">
             Votre email
           </legend>
-          <input name="email" class="input validator w-full" type="email" required placeholder="elisa@monsite.com">
+          <input name="email" class="validator input w-full" type="email" required placeholder="elisa@monsite.com">
           <div class="validator-hint">
             Veuillez entrer un email valide
           </div>
@@ -49,7 +49,7 @@ async function sendMessage(event) {
             Votre message
           </legend>
           <textarea
-            name="message" class="textarea validator h-44 w-full"
+            name="message" class="validator textarea h-44 w-full"
             placeholder="Bonjour, je m'appelle Elisa, j'ai un projet de site e-commerce. Pouvez-vous me rappeler au 06 ** ** ** ** ?"
             required
           />
@@ -73,7 +73,7 @@ async function sendMessage(event) {
             </div>
           </label>
         </fieldset>
-        <Button class="btn-primary mt-4">
+        <Button class="mt-4 btn-primary">
           <span v-show="isSending" class="loading loading-spinner" />
           Envoyer le message
         </Button>

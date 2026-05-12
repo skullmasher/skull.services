@@ -8,7 +8,7 @@
         <div class="flex flex-col gap-y-4">
           <p>14 ans d'éxpériance a réduire et simplifier les coûts informatiques des PME</p>
           <p>Vue.js • Wordpress • Odoo</p>
-          <div class="flex gap-x-3 items-center">
+          <div class="flex items-center gap-x-3">
             <Icon class="text-4xl text-primary" name="solar:map-point-wave-broken" />
             <p>Basé a Nancy</p>
           </div>
