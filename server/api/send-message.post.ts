@@ -36,7 +36,7 @@ export default defineEventHandler(async (event) => {
   await transporter.sendMail({
     from: '"Contact Skullmasher.io" <no-reply@skullmasher.io>',
     to: 'florian@skullmasher.io',
-    subject: 'Contact Skullmasher.io ✔',
+    subject: 'Contact from skullmasher.io',
     text: `${email} \n ${message}`, // plain‑text body
     html: `<p>${email}</p><p>${message}</p>`, // HTML body
   })
