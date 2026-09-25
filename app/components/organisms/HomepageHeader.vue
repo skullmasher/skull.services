@@ -56,7 +56,7 @@
           font-permanent-marker text-4xl
         "
       >
-        <span>Le dévelopeur</span>
+        <span>Le développeur</span>
         <span class="relative inline-block">
           <Icon
             name="solar:bolt-broken" class="
