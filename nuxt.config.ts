@@ -35,6 +35,8 @@ export default defineNuxtConfig({
 
   css: ['~/assets/app.css'],
 
+  site: { defaultLocale: 'fr' },
+
   svgo: {
     autoImportPath: './assets/svg/',
     componentPrefix: 'svg',
